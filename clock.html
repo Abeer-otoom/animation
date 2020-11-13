@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div
+		{
+			width: 300px;
+			height: 300px;
+			margin: 100px;
+			border:10px solid #000;
+			border-radius: 170px;
+				
+		}
+		p
+		{	margin: 35px;
+    		margin-top: 75px;
+    		margin-left: 140px;
+    		border:6px solid black;
+    		width: 5px;
+			height: 100px;
+			background-color: black;
+			animation: move 2s infinite;	
+		}
+		@keyframes move
+		{
+	      100% {transform: rotate(180deg);}
+        }
+        p:hover
+        {
+        	animation-play-state: paused;
+        }
+
+	</style>
+</head>
+<body>
+<div>
+<p></p>
+</div>
+</body>
+</html>

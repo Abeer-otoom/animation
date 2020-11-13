@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div
+		{
+			background:#ccc;
+			margin: 40px;
+			height: 400px;
+			border: 10px solid black;
+		}
+		.line
+		{
+			border: 10px dashed black;
+			margin-top: 50px;
+		}
+		@keyframes carone
+		{ 0% {top: 0px; left:0px;}
+		  100%{top: 0px; left: 1130px;}
+		}
+		.car1
+		{
+			animation: carone 9s infinite;
+			position: relative;
+			animation-timing-function: ease-out;
+		}
+		@keyframes cartwo
+		{ 
+		  0% {top: 0px; left:0px;}
+		  100%{top: 0px; left: 1130px;}
+
+		}
+		.car2
+		{
+			animation: cartwo 9s infinite;
+			position: relative;
+			animation-timing-function: ease-out;
+			animation-delay: 1s;
+		}
+		
+
+	</style>
+</head>
+<body>
+<div>
+	<img src="img/car.png" height="120px;" class="car1">
+<hr class="line">
+<br>
+    <img src="img/car1.png"height="120px;" class="car2">
+</div>
+</body>
+</html>

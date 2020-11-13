@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div
+		{
+			width: 100px;
+			height: 300px;
+			margin: 100px;
+			border:10px solid #000;
+			box-shadow: 10px 10px 10px #000;
+			background-color: #ccc;		
+			
+    	}
+    	p
+    	{
+    		border:4px solid  #000;
+    		margin:15px;
+    		width: 60px;
+    		height: 60px;
+    		border-radius: 100px;
+    		
+    	}
+    	.c1
+    	{   
+    		margin: 35px;
+    		margin-top: 53px;
+    		border:10px solid black;
+    		width: 10px;
+			height: 200px;
+			background-color: black;
+    	}
+    	@keyframes one
+    	{
+    		from{background-color: #ccc}
+    		to{background-color: red}
+    	}
+    	@keyframes two
+    	{
+    		from{background-color: #ccc}
+    		to{background-color: yellow}
+    	}
+    	@keyframes three
+    	{
+    		from{background-color: #ccc}
+    		to{background-color: green}
+    	}
+    	.red
+    	{   background-color: #ccc;
+    		animation: one 3s infinite;
+
+    	}
+    	.yellow
+    	{    background-color: #ccc;
+    		animation: two 3s infinite;
+    		animation-delay: 3s;
+    	}
+    	.green
+    	{    background-color: #ccc;
+    		animation: three 3s infinite;
+    		animation-delay: 6s;
+    	}
+    	
+
+
+	</style>
+</head>
+<body>
+<div>
+<p class="red"></p>
+<p class="yellow"></p>	
+<p class="green"></p>	
+<div class="c1"></div>
+</div>
+</body>
+</html>
